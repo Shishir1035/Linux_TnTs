@@ -19,6 +19,6 @@ Instruction
 
 To clone the repository <br>
 `git clone https://github.com/Shishir1035/Linux_TnTs.git`
-To make a file executable run <br>
+<br> To make a file executable run <br>
 `sudo chmod +x file.sh` <br>
 `./file.sh`
