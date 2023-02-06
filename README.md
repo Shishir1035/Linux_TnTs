@@ -17,8 +17,8 @@ scripts instead of copy pasting each command from google everytime. Maybe I'll l
 Instruction
 ------------
 
-To clone the repository
+To clone the repository <br>
 `git clone https://github.com/Shishir1035/Linux_TnTs.git`
-To make a file executable run
-`sudo chmod +x file.sh`
+To make a file executable run <br>
+`sudo chmod +x file.sh` <br>
 `./file.sh`
