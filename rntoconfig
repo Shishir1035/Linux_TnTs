@@ -1,0 +1,34 @@
+[global_config]
+[keybindings]
+  zoom_in = <Primary>equal
+  zoom_out = <Primary>minus
+  cycle_next = <Primary>Tab
+  cycle_prev = <Primary><Shift>Tab
+  split_horiz = <Primary><Super>Down
+  split_vert = <Primary><Super>Right
+  close_term = <Primary><Shift>w
+  copy = <Primary><Shift>c
+  paste = <Primary><Shift>v
+  close_window = <Primary><Shift>q
+  full_screen = <Primary><Super>f
+  preferences = <Primary><Super>p
+[profiles]
+  [[default]]
+    background_darkness = 0.8
+    background_type = transparent
+    font = Fira Code Medium 13
+    foreground_color = "#1da16d"
+    scrollback_infinite = True
+    palette = "#1f2229:#d41919:#5ebdab:#fea44c:#367bf0:#9755b3:#49aee6:#e6e6e6:#198388:#ec0101:#47d4b9:#ff8a18:#277fff:#962ac3:#05a1f7:#ffffff"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
+
+# put the config file in ~/.config/terminator folder
